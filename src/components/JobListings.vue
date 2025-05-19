@@ -22,12 +22,9 @@ onMounted(async () => {
     try {
         const response = await axios.get('/api/jobs');
         state.jobs = response.data;
-        console.log('state',state.jobs);
-        console.log('response',response.data);
     } catch (error) {
         console.error('Error fetching jobs', error);
     } finally {
-        console.log('finally');
         state.isLoading = false;
     }
 });
