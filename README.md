@@ -1,6 +1,6 @@
-# vue-crash-course
+# See [Video by Traversy Media](https://www.youtube.com/watch?v=VeNfHj6MhgA)
 
-This template should help get you started developing with Vue 3 in Vite.
+Fantastic tutorial! Credit to [Brad Traversy](https://github.com/bradtraversy)
 
 ## Recommended IDE Setup
 
