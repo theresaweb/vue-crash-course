@@ -3,8 +3,9 @@ import Hero from '@/components/Hero.vue';
 import HomeCards from '@/components/HomeCards.vue';
 import JobListings from '@/components/JobListings.vue';
 </script>
+
 <template>
-    <Hero/>
-    <HomeCards/>
-    <JobListings :limit="5" :showButton="true"/>
+  <Hero />
+  <HomeCards />
+  <JobListings :limit="9" :showButton="true" />
 </template>
